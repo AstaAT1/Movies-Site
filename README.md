@@ -1,16 +1,36 @@
-# React + Vite
+# 🎬 LEETMOVIE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**LEETMOVIE** is a Netflix-inspired web app for discovering **Movies** and **TV Shows**.  
+Browse trending content, open a details page, watch trailers (if available), and manage your watchlist — built with **React + TailwindCSS**.
 
-Currently, two official plugins are available:
+> **Goal:** Premium UI/UX, smooth animations, scalable structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse Movies / TV Shows (Trending, Top Rated, New Releases, etc.)
+- Details page (overview/story, genres, cast, metadata/info)
+- Trailer modal (YouTube embed or provider-based)
+- Watchlist (add/remove + persistence)
+- Search (optional: live suggestions + filters)
+- Ratings & Comments (optional: localStorage or API-backed)
+- Dark / Light mode (theme toggle)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+- **React** + **Vite**
+- **TailwindCSS**
+- **shadcn/ui** (Button, Card, Badge, Sheet, Tabs/Accordion, Tooltip, Separator, Input, Textarea)
+- **framer-motion** (micro-interactions, page transitions)
+- **GSAP** (hero reveal / subtle scroll animations)
+- **three + @react-three/fiber + @react-three/drei** (optional subtle 3D background)
+- **Lenis** (optional smooth scrolling)
+
+Optional but recommended:
+- **react-router-dom** (routing)
+- **@tanstack/react-query** (fetching + caching)
+- **embla-carousel-react** (carousels)
+- **react-hook-form + zod** (forms & validation)
