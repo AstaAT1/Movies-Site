@@ -21,6 +21,6 @@ const Images = {
   movie6,
   movie7,
   movie8,
-};
+}
 
-export default Images;
+export default Images
